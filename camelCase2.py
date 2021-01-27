@@ -18,7 +18,18 @@ def camelcase(sentence):
     return camel_case_sentence
 
 
+def banner():
+    """Display welcome banner"""
+    message = "CAMELCASE PROGRAM!!!"
+    stars = '*' * len(message)
+    print(f'{stars}\n{message}\n{stars}')
+
+
 def main():
+    banner()
     sentence = input('Write a sentence: ')  # original sentence
     output = camelcase(sentence)  # stores camelCase sentence in variable
     print(output)
+
+
+main()
