@@ -19,6 +19,7 @@ def camelcase(sentence):
 
 
 def instructions():
+    # gives user instruction on what to type
     sentence = input('Enter a sentence to convert to camelCase: ')
     return sentence
 
